@@ -39,9 +39,9 @@ btn.addEventListener('click', function func() {
 
 
     } else {
-        elem1.textContent = elem1.textContent + ' ' + d;
-        elem2.textContent = elem2.textContent + ' no existe';
-        elem3.textContent = elem3.textContent + ' no existe'
+        elem1.textContent = d;
+        elem2.textContent = ' no existe';
+        elem3.textContent = ' no existe'
     }
 
    
